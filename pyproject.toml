@@ -1,0 +1,29 @@
+[project]
+name = "account-research-agent"
+version = "1.0.0"
+description = "Grounded B2B account research: ICP fit, buying signals and an opener, with every quote verified against the source."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Noah Coker" }]
+dependencies = [
+  "anthropic>=0.40",
+  "beautifulsoup4>=4.12",
+  "httpx>=0.27",
+  "pydantic>=2.7",
+  "pyyaml>=6.0",
+  "rank-bm25>=0.2.2",
+  "rapidfuzz>=3.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+account-research = "account_research.cli:main"
+
+[tool.setuptools]
+packages = ["account_research"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,37 @@
+# Ideal customer profile for a fictional seller of revenue analytics software.
+# Edit the criteria and weights to match what you sell. Weights must add up to 100.
+name: Mid-market B2B companies with a growing sales team
+seller: >
+  We sell revenue analytics software that helps sales and RevOps teams forecast
+  accurately and spot at-risk deals early.
+
+criteria:
+  - id: b2b
+    question: Does the company sell to other businesses rather than to consumers?
+    weight: 20
+  - id: sales_team
+    question: Does the company have a sales team, such as account executives, SDRs or sales leadership?
+    weight: 25
+  - id: growth
+    question: Is the company growing, for example recent funding, expansion into new markets, or many open roles?
+    weight: 20
+  - id: revops_stack
+    question: Is there evidence of sales operations, revenue operations or a CRM such as Salesforce or HubSpot?
+    weight: 20
+  - id: region
+    question: Does the company operate in Europe or North America?
+    weight: 15
+
+# Extra searches used to find buying signals in the company's own pages.
+signal_queries:
+  - hiring sales development representatives account executives sales team
+  - raised funding series round investors
+  - expansion new market new office launch
+  - revenue operations forecasting Salesforce HubSpot CRM
+  - chief revenue officer VP sales head of sales
+
+personas:
+  - Chief Revenue Officer
+  - VP Sales
+  - Head of Revenue Operations
+  - Sales Operations Manager

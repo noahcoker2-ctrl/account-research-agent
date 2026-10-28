@@ -1,0 +1,144 @@
+{
+  "domain": "bramble-studio.example",
+  "generated_at": "2026-10-27 23:55 UTC",
+  "model": "claude-sonnet-5-5 (saved reply)",
+  "brief": {
+    "company_name": "Bramble",
+    "company_summary": "Bramble is a small design studio in Bristol that does brand and packaging design for independent food and drink makers such as bakeries, coffee roasters and craft breweries. It deliberately stays small so clients work directly with the designers. The sources show no sales or revenue-operations function.",
+    "summary_evidence": [
+      {
+        "source_id": "S1",
+        "quote": "Brand and packaging design for independent food and drink makers",
+        "verified": true,
+        "match_score": 100.0,
+        "problem": ""
+      },
+      {
+        "source_id": "S1",
+        "quote": "Bramble is a small design studio in Bristol.",
+        "verified": true,
+        "match_score": 100.0,
+        "problem": ""
+      },
+      {
+        "source_id": "S2",
+        "quote": "We keep the studio small on purpose so clients always work directly with the people doing the design.",
+        "verified": true,
+        "match_score": 100.0,
+        "problem": ""
+      }
+    ],
+    "icp_fit": [
+      {
+        "criterion_id": "b2b",
+        "verdict": "yes",
+        "rationale": "Its clients are food and drink businesses, not consumers.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "We help independent bakeries, coffee roasters and craft breweries look as good as what they make.",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      },
+      {
+        "criterion_id": "sales_team",
+        "verdict": "unclear",
+        "rationale": "The sources mention no account executives, SDRs or sales leadership; they only describe designers working directly with clients.",
+        "evidence": []
+      },
+      {
+        "criterion_id": "growth",
+        "verdict": "unclear",
+        "rationale": "The sources show no funding, expansion or open roles, so growth cannot be assessed.",
+        "evidence": []
+      },
+      {
+        "criterion_id": "revops_stack",
+        "verdict": "unclear",
+        "rationale": "The sources do not mention sales operations, revenue operations or a CRM.",
+        "evidence": []
+      },
+      {
+        "criterion_id": "region",
+        "verdict": "yes",
+        "rationale": "The studio is based in Bristol, which is in either Europe or North America depending on which Bristol; the sources do not say which, but both qualify.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "quote": "Bramble is a small design studio in Bristol.",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      }
+    ],
+    "buying_signals": [],
+    "recommended_personas": [],
+    "opener": {
+      "text": "Bramble takes on a handful of new projects each season. If tracking which enquiries are likely to close matters at that scale, we make revenue analytics software that flags at-risk deals early.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "quote": "we take on a handful of new projects each season",
+          "verified": true,
+          "match_score": 100.0,
+          "problem": ""
+        }
+      ]
+    },
+    "open_questions": [
+      "Does anyone at Bramble own sales or business development, or do the founders handle it themselves?",
+      "Does the studio use a CRM or any pipeline tracking for project enquiries?",
+      "Is the studio planning to grow headcount or take on more projects, or is the small size permanent?",
+      "Is a studio with a handful of projects per season a realistic fit for forecasting software, or should this account be deprioritised?"
+    ]
+  },
+  "fit_score": 48,
+  "tier": "C",
+  "coverage": 0.35,
+  "criteria_weights": {
+    "b2b": 20,
+    "sales_team": 25,
+    "growth": 20,
+    "revops_stack": 20,
+    "region": 15
+  },
+  "criteria_questions": {
+    "b2b": "Does the company sell to other businesses rather than to consumers?",
+    "sales_team": "Does the company have a sales team, such as account executives, SDRs or sales leadership?",
+    "growth": "Is the company growing, for example recent funding, expansion into new markets, or many open roles?",
+    "revops_stack": "Is there evidence of sales operations, revenue operations or a CRM such as Salesforce or HubSpot?",
+    "region": "Does the company operate in Europe or North America?"
+  },
+  "grounding": {
+    "quotes_total": 6,
+    "quotes_verified": 6,
+    "rate": 1.0,
+    "flags": [],
+    "removed_signals": [],
+    "downgraded_criteria": [],
+    "opener_needs_review": false
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "homepage",
+      "url": "https://bramble-studio.example",
+      "title": "Bramble Studio | Brand and packaging design"
+    },
+    {
+      "id": "S2",
+      "kind": "about",
+      "url": "https://bramble-studio.example/about",
+      "title": "About | Bramble Studio"
+    }
+  ],
+  "pages_fetched": [
+    "https://bramble-studio.example",
+    "https://bramble-studio.example/about"
+  ]
+}

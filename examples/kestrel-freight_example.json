@@ -1,0 +1,268 @@
+{
+  "domain": "kestrel-freight.example",
+  "generated_at": "2026-10-27 23:55 UTC",
+  "model": "claude-sonnet-5-5 (saved reply)",
+  "brief": {
+    "company_name": "Kestrel Freight",
+    "company_summary": "Kestrel Freight sells a shipment visibility platform that tracks road, rail and ocean freight across thousands of carriers. Its customers are logistics and supply chain teams at manufacturers, distributors and retailers. It has offices in Amsterdam, Lyon and Chicago.",
+    "summary_evidence": [
+      {
+        "source_id": "S1",
+        "quote": "real-time visibility across more than 4,000 carriers",
+        "verified": true,
+        "match_score": 100.0,
+        "problem": ""
+      },
+      {
+        "source_id": "S2",
+        "quote": "We sell our platform to logistics and supply chain teams at manufacturers, distributors and retailers.",
+        "verified": true,
+        "match_score": 100.0,
+        "problem": ""
+      }
+    ],
+    "icp_fit": [
+      {
+        "criterion_id": "b2b",
+        "verdict": "yes",
+        "rationale": "Kestrel sells its platform to logistics and supply chain teams at businesses, not to consumers.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "quote": "We sell our platform to logistics and supply chain teams at manufacturers, distributors and retailers.",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      },
+      {
+        "criterion_id": "sales_team",
+        "verdict": "yes",
+        "rationale": "Kestrel has a Chief Revenue Officer and is hiring account executives and SDRs.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "quote": "Hannah Okafor, Chief Revenue Officer, joined in January 2026 to build out our go-to-market team in North America",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          },
+          {
+            "source_id": "S5",
+            "quote": "Account Executive, Mid-Market - Chicago",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      },
+      {
+        "criterion_id": "growth",
+        "verdict": "yes",
+        "rationale": "Kestrel recently raised a Series B and says it is hiring across several teams.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "quote": "Kestrel Freight today announced a €40 million Series B round.",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          },
+          {
+            "source_id": "S5",
+            "quote": "We are growing fast and hiring across sales, engineering and customer success.",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      },
+      {
+        "criterion_id": "revops_stack",
+        "verdict": "yes",
+        "rationale": "A open Revenue Operations Manager role says the person will own the Salesforce instance, pipeline reporting and forecasting.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "quote": "You will own our Salesforce instance, pipeline reporting and the quarterly forecasting process.",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      },
+      {
+        "criterion_id": "region",
+        "verdict": "yes",
+        "rationale": "Kestrel has offices in Amsterdam and Lyon in Europe and in Chicago in North America.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "quote": "a team of 240 people across Amsterdam, Lyon and Chicago",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      }
+    ],
+    "buying_signals": [
+      {
+        "signal": "Series B funding to expand go-to-market",
+        "why_it_matters": "Doubling the go-to-market team in 2026 makes accurate forecasting and early visibility into at-risk deals more important.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "quote": "This round lets us double our go-to-market team in 2026.",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      },
+      {
+        "signal": "New Chief Revenue Officer",
+        "why_it_matters": "A new revenue leader building a North American go-to-market team is likely to be choosing forecasting and pipeline tools.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "quote": "Hannah Okafor, Chief Revenue Officer, joined in January 2026 to build out our go-to-market team in North America",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      },
+      {
+        "signal": "Hiring a Revenue Operations Manager",
+        "why_it_matters": "The role owns pipeline reporting and quarterly forecasting, which is the work revenue analytics software supports.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "quote": "You will own our Salesforce instance, pipeline reporting and the quarterly forecasting process.",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      },
+      {
+        "signal": "Hiring SDRs and an Account Executive",
+        "why_it_matters": "A growing pipeline and a larger sales team create more deals to forecast and monitor for risk.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "quote": "Sales Development Representative (3 openings) - Lyon or Amsterdam",
+            "verified": true,
+            "match_score": 100.0,
+            "problem": ""
+          }
+        ]
+      }
+    ],
+    "recommended_personas": [
+      "Chief Revenue Officer",
+      "Head of Revenue Operations",
+      "VP Sales",
+      "Sales Operations Manager"
+    ],
+    "opener": {
+      "text": "Kestrel plans to double its go-to-market team in 2026, and its open Revenue Operations Manager role covers quarterly forecasting. We help RevOps teams forecast accurately and spot at-risk deals early as headcount scales.",
+      "evidence": [
+        {
+          "source_id": "S6",
+          "quote": "This round lets us double our go-to-market team in 2026.",
+          "verified": true,
+          "match_score": 100.0,
+          "problem": ""
+        },
+        {
+          "source_id": "S5",
+          "quote": "You will own our Salesforce instance, pipeline reporting and the quarterly forecasting process.",
+          "verified": true,
+          "match_score": 100.0,
+          "problem": ""
+        }
+      ]
+    },
+    "open_questions": [
+      "Who currently owns forecasting and pipeline reporting until the Revenue Operations Manager is hired?",
+      "Which forecasting or revenue analytics tools, if any, sit on top of Salesforce today?",
+      "Does the new CRO plan to change the sales tool stack or forecasting process?",
+      "How large is the sales team now, and how will it be split between Europe and North America?"
+    ]
+  },
+  "fit_score": 100,
+  "tier": "A",
+  "coverage": 1.0,
+  "criteria_weights": {
+    "b2b": 20,
+    "sales_team": 25,
+    "growth": 20,
+    "revops_stack": 20,
+    "region": 15
+  },
+  "criteria_questions": {
+    "b2b": "Does the company sell to other businesses rather than to consumers?",
+    "sales_team": "Does the company have a sales team, such as account executives, SDRs or sales leadership?",
+    "growth": "Is the company growing, for example recent funding, expansion into new markets, or many open roles?",
+    "revops_stack": "Is there evidence of sales operations, revenue operations or a CRM such as Salesforce or HubSpot?",
+    "region": "Does the company operate in Europe or North America?"
+  },
+  "grounding": {
+    "quotes_total": 15,
+    "quotes_verified": 15,
+    "rate": 1.0,
+    "flags": [],
+    "removed_signals": [],
+    "downgraded_criteria": [],
+    "opener_needs_review": false
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "homepage",
+      "url": "https://kestrel-freight.example",
+      "title": "Kestrel Freight | Freight visibility for mid-sized shippers"
+    },
+    {
+      "id": "S2",
+      "kind": "about",
+      "url": "https://kestrel-freight.example/about",
+      "title": "About us | Kestrel Freight"
+    },
+    {
+      "id": "S3",
+      "kind": "customers",
+      "url": "https://kestrel-freight.example/customers",
+      "title": "Customers | Kestrel Freight"
+    },
+    {
+      "id": "S4",
+      "kind": "pricing",
+      "url": "https://kestrel-freight.example/pricing",
+      "title": "Pricing | Kestrel Freight"
+    },
+    {
+      "id": "S5",
+      "kind": "careers",
+      "url": "https://kestrel-freight.example/careers",
+      "title": "Careers | Kestrel Freight"
+    },
+    {
+      "id": "S6",
+      "kind": "news",
+      "url": "https://kestrel-freight.example/blog/series-b",
+      "title": "Kestrel Freight raises a EUR 40 million Series B | Kestrel Freight blog"
+    }
+  ],
+  "pages_fetched": [
+    "https://kestrel-freight.example",
+    "https://kestrel-freight.example/about",
+    "https://kestrel-freight.example/customers",
+    "https://kestrel-freight.example/pricing",
+    "https://kestrel-freight.example/careers",
+    "https://kestrel-freight.example/blog/series-b"
+  ]
+}
